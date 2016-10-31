@@ -7,3 +7,7 @@ ln -s /usr/bin/nodejs /usr/bin/node
 npm install -g hubot coffee-script
 
 
+
+npm install -g yo generator-hubot
+
+

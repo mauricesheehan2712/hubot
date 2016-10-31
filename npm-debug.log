@@ -1,0 +1,492 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yo',
+1 verbose cli   'generator-hubot' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'yo', null ]
+5 verbose cache add name=undefined spec="yo" args=["yo",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'yo',
+6 verbose parsed url   path: 'yo',
+6 verbose parsed url   href: 'yo' }
+7 verbose cache add [ 'generator-hubot', null ]
+8 verbose cache add name=undefined spec="generator-hubot" args=["generator-hubot",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'generator-hubot',
+9 verbose parsed url   path: 'generator-hubot',
+9 verbose parsed url   href: 'generator-hubot' }
+10 silly lockFile a99f4c03-generator-hubot generator-hubot
+11 verbose lock generator-hubot /home/vagrant/.npm/a99f4c03-generator-hubot.lock
+12 silly lockFile c41975d1-yo yo
+13 verbose lock yo /home/vagrant/.npm/c41975d1-yo.lock
+14 silly lockFile a99f4c03-generator-hubot generator-hubot
+15 silly lockFile a99f4c03-generator-hubot generator-hubot
+16 verbose addNamed [ 'generator-hubot', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile c9293273-generator-hubot generator-hubot@
+19 verbose lock generator-hubot@ /home/vagrant/.npm/c9293273-generator-hubot.lock
+20 silly addNameRange { name: 'generator-hubot', range: '*', hasData: false }
+21 verbose url raw generator-hubot
+22 verbose url resolving [ 'https://registry.npmjs.org/', './generator-hubot' ]
+23 verbose url resolved https://registry.npmjs.org/generator-hubot
+24 info trying registry request attempt 1 at 11:49:29
+25 http GET https://registry.npmjs.org/generator-hubot
+26 silly lockFile c41975d1-yo yo
+27 silly lockFile c41975d1-yo yo
+28 verbose addNamed [ 'yo', '' ]
+29 verbose addNamed [ null, '*' ]
+30 silly lockFile d937c28e-yo yo@
+31 verbose lock yo@ /home/vagrant/.npm/d937c28e-yo.lock
+32 silly addNameRange { name: 'yo', range: '*', hasData: false }
+33 verbose url raw yo
+34 verbose url resolving [ 'https://registry.npmjs.org/', './yo' ]
+35 verbose url resolved https://registry.npmjs.org/yo
+36 info trying registry request attempt 1 at 11:49:29
+37 http GET https://registry.npmjs.org/yo
+38 http 200 https://registry.npmjs.org/generator-hubot
+39 silly registry.get cb [ 200,
+39 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 silly registry.get     etag: '"485TS285TX9GYCJGSUCNEVGZA"',
+39 silly registry.get     'content-type': 'application/json',
+39 silly registry.get     'cache-control': 'max-age=300',
+39 silly registry.get     'content-length': '21132',
+39 silly registry.get     'accept-ranges': 'bytes',
+39 silly registry.get     date: 'Mon, 31 Oct 2016 11:49:28 GMT',
+39 silly registry.get     via: '1.1 varnish',
+39 silly registry.get     age: '63',
+39 silly registry.get     connection: 'keep-alive',
+39 silly registry.get     'x-served-by': 'cache-lcy1151-LCY',
+39 silly registry.get     'x-cache': 'HIT',
+39 silly registry.get     'x-cache-hits': '1',
+39 silly registry.get     'x-timer': 'S1477914568.631214,VS0,VE0',
+39 silly registry.get     vary: 'Accept-Encoding' } ]
+40 silly addNameRange number 2 { name: 'generator-hubot', range: '*', hasData: true }
+41 silly addNameRange versions [ 'generator-hubot',
+41 silly addNameRange   [ '0.1.0',
+41 silly addNameRange     '0.1.1',
+41 silly addNameRange     '0.1.2',
+41 silly addNameRange     '0.1.3',
+41 silly addNameRange     '0.1.4',
+41 silly addNameRange     '0.2.0',
+41 silly addNameRange     '0.2.1',
+41 silly addNameRange     '0.2.2',
+41 silly addNameRange     '0.2.3',
+41 silly addNameRange     '0.2.4',
+41 silly addNameRange     '0.2.5',
+41 silly addNameRange     '0.3.0',
+41 silly addNameRange     '0.3.1',
+41 silly addNameRange     '0.4.0' ] ]
+42 verbose addNamed [ 'generator-hubot', '0.4.0' ]
+43 verbose addNamed [ '0.4.0', '0.4.0' ]
+44 silly lockFile 7e587d0d-generator-hubot-0-4-0 generator-hubot@0.4.0
+45 verbose lock generator-hubot@0.4.0 /home/vagrant/.npm/7e587d0d-generator-hubot-0-4-0.lock
+46 silly lockFile 115f5a5f--hubot-generator-hubot-0-4-0-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.4.0.tgz
+47 verbose lock https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.4.0.tgz /home/vagrant/.npm/115f5a5f--hubot-generator-hubot-0-4-0-tgz.lock
+48 verbose addRemoteTarball [ 'https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.4.0.tgz',
+48 verbose addRemoteTarball   '575236872bb939f176e00738f9adbc3cc4202113' ]
+49 info retry fetch attempt 1 at 11:49:29
+50 verbose fetch to= /home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/tmp.tgz
+51 http GET https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.4.0.tgz
+52 http 200 https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.4.0.tgz
+53 verbose tar unpack /home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/tmp.tgz
+54 silly lockFile 46d6026c-372-0-042859362438321114-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package
+55 verbose lock tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package /home/vagrant/.npm/46d6026c-372-0-042859362438321114-package.lock
+56 silly lockFile 31215157-372-0-042859362438321114-tmp-tgz tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/tmp.tgz
+57 verbose lock tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/tmp.tgz /home/vagrant/.npm/31215157-372-0-042859362438321114-tmp-tgz.lock
+58 silly gunzTarPerm modes [ '755', '644' ]
+59 silly gunzTarPerm extractEntry package.json
+60 silly gunzTarPerm extractEntry README.md
+61 silly gunzTarPerm extractEntry LICENSE
+62 silly gunzTarPerm extractEntry CHANGELOG.md
+63 silly gunzTarPerm extractEntry generators/app/index.js
+64 silly gunzTarPerm extractEntry generators/app/templates/README.md
+65 silly gunzTarPerm extractEntry generators/app/templates/Procfile
+66 silly gunzTarPerm extractEntry generators/app/templates/_package.json
+67 http 200 https://registry.npmjs.org/yo
+68 silly registry.get cb [ 200,
+68 silly registry.get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+68 silly registry.get     etag: '"5OZN3QP3PGBDYME657AN3OX95"',
+68 silly registry.get     'content-type': 'application/json',
+68 silly registry.get     'cache-control': 'max-age=300',
+68 silly registry.get     'content-length': '70681',
+68 silly registry.get     'accept-ranges': 'bytes',
+68 silly registry.get     date: 'Mon, 31 Oct 2016 11:49:28 GMT',
+68 silly registry.get     via: '1.1 varnish',
+68 silly registry.get     age: '0',
+68 silly registry.get     connection: 'keep-alive',
+68 silly registry.get     'x-served-by': 'cache-lcy1143-LCY',
+68 silly registry.get     'x-cache': 'HIT',
+68 silly registry.get     'x-cache-hits': '1',
+68 silly registry.get     'x-timer': 'S1477914568.622096,VS0,VE172',
+68 silly registry.get     vary: 'Accept-Encoding' } ]
+69 silly addNameRange number 2 { name: 'yo', range: '*', hasData: true }
+70 silly addNameRange versions [ 'yo',
+70 silly addNameRange   [ '1.1.0',
+70 silly addNameRange     '1.1.1',
+70 silly addNameRange     '1.1.2',
+70 silly addNameRange     '1.4.6',
+70 silly addNameRange     '1.4.7',
+70 silly addNameRange     '1.4.8',
+70 silly addNameRange     '1.5.0',
+70 silly addNameRange     '1.5.1',
+70 silly addNameRange     '1.6.0',
+70 silly addNameRange     '1.7.0',
+70 silly addNameRange     '1.7.1',
+70 silly addNameRange     '1.8.1',
+70 silly addNameRange     '1.8.2',
+70 silly addNameRange     '1.8.3',
+70 silly addNameRange     '1.8.4',
+70 silly addNameRange     '1.8.5' ] ]
+71 verbose addNamed [ 'yo', '1.8.5' ]
+72 verbose addNamed [ '1.8.5', '1.8.5' ]
+73 silly lockFile df3f7f5d-yo-1-8-5 yo@1.8.5
+74 verbose lock yo@1.8.5 /home/vagrant/.npm/df3f7f5d-yo-1-8-5.lock
+75 silly gunzTarPerm extractEntry generators/app/templates/bin/hubot
+76 silly gunzTarPerm extractEntry generators/app/templates/bin/hubot.cmd
+77 silly lockFile e21e4a4e-gistry-npmjs-org-yo-yo-1-8-5-tgz https://registry.npmjs.org/yo/-/yo-1.8.5.tgz
+78 verbose lock https://registry.npmjs.org/yo/-/yo-1.8.5.tgz /home/vagrant/.npm/e21e4a4e-gistry-npmjs-org-yo-yo-1-8-5-tgz.lock
+79 verbose addRemoteTarball [ 'https://registry.npmjs.org/yo/-/yo-1.8.5.tgz',
+79 verbose addRemoteTarball   '776ab9ec79a7882f8d4f7a9e10214fdab050d928' ]
+80 info retry fetch attempt 1 at 11:49:29
+81 verbose fetch to= /home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/tmp.tgz
+82 http GET https://registry.npmjs.org/yo/-/yo-1.8.5.tgz
+83 silly gunzTarPerm extractEntry generators/app/templates/editorconfig
+84 silly gunzTarPerm extractEntry generators/app/templates/gitignore
+85 silly gunzTarPerm extractEntry generators/app/templates/scripts/example.coffee
+86 silly gunzTarPerm extractEntry generators/script/index.js
+87 silly gunzTarPerm extractEntry generators/script/templates/README.md
+88 silly gunzTarPerm extractEntry generators/script/templates/Gruntfile.js
+89 silly gunzTarPerm extractEntry generators/script/templates/.travis.yml
+90 silly gunzTarPerm extractEntry generators/script/templates/_package.json
+91 silly gunzTarPerm extractEntry generators/script/templates/editorconfig
+92 silly gunzTarPerm extractEntry generators/script/templates/gitignore
+93 silly gunzTarPerm extractEntry generators/script/templates/index.coffee
+94 silly gunzTarPerm extractEntry generators/script/templates/script/bootstrap
+95 silly gunzTarPerm extractEntry generators/script/templates/script/test
+96 silly gunzTarPerm extractEntry generators/script/templates/src/template.coffee
+97 silly gunzTarPerm extractEntry generators/script/templates/test/template-test.coffee
+98 silly lockFile 46d6026c-372-0-042859362438321114-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package
+99 silly lockFile 46d6026c-372-0-042859362438321114-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package
+100 silly lockFile 31215157-372-0-042859362438321114-tmp-tgz tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/tmp.tgz
+101 silly lockFile 31215157-372-0-042859362438321114-tmp-tgz tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/tmp.tgz
+102 verbose tar pack [ '/home/vagrant/.npm/generator-hubot/0.4.0/package.tgz',
+102 verbose tar pack   '/home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package' ]
+103 verbose tarball /home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+104 verbose folder /home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package
+105 silly lockFile 46d6026c-372-0-042859362438321114-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package
+106 verbose lock tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package /home/vagrant/.npm/46d6026c-372-0-042859362438321114-package.lock
+107 silly lockFile 31be12d2-enerator-hubot-0-4-0-package-tgz tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+108 verbose lock tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz /home/vagrant/.npm/31be12d2-enerator-hubot-0-4-0-package-tgz.lock
+109 silly lockFile 46d6026c-372-0-042859362438321114-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package
+110 silly lockFile 46d6026c-372-0-042859362438321114-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569372-0.042859362438321114/package
+111 silly lockFile 31be12d2-enerator-hubot-0-4-0-package-tgz tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+112 silly lockFile 31be12d2-enerator-hubot-0-4-0-package-tgz tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+113 silly lockFile 02fe166d-pm-generator-hubot-0-4-0-package /home/vagrant/.npm/generator-hubot/0.4.0/package
+114 verbose lock /home/vagrant/.npm/generator-hubot/0.4.0/package /home/vagrant/.npm/02fe166d-pm-generator-hubot-0-4-0-package.lock
+115 silly lockFile 02fe166d-pm-generator-hubot-0-4-0-package /home/vagrant/.npm/generator-hubot/0.4.0/package
+116 silly lockFile 02fe166d-pm-generator-hubot-0-4-0-package /home/vagrant/.npm/generator-hubot/0.4.0/package
+117 verbose tar unpack /home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+118 silly lockFile e8516a17-pm-generator-hubot-0-4-0-package tar:///home/vagrant/.npm/generator-hubot/0.4.0/package
+119 verbose lock tar:///home/vagrant/.npm/generator-hubot/0.4.0/package /home/vagrant/.npm/e8516a17-pm-generator-hubot-0-4-0-package.lock
+120 silly lockFile 31be12d2-enerator-hubot-0-4-0-package-tgz tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+121 verbose lock tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz /home/vagrant/.npm/31be12d2-enerator-hubot-0-4-0-package-tgz.lock
+122 silly gunzTarPerm modes [ '755', '644' ]
+123 http 200 https://registry.npmjs.org/yo/-/yo-1.8.5.tgz
+124 silly gunzTarPerm extractEntry package.json
+125 verbose tar unpack /home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/tmp.tgz
+126 silly lockFile 5feb4ef9-69579-0-6778298590797931-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package
+127 verbose lock tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package /home/vagrant/.npm/5feb4ef9-69579-0-6778298590797931-package.lock
+128 silly lockFile cb6cfb8e-69579-0-6778298590797931-tmp-tgz tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/tmp.tgz
+129 verbose lock tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/tmp.tgz /home/vagrant/.npm/cb6cfb8e-69579-0-6778298590797931-tmp-tgz.lock
+130 silly gunzTarPerm extractEntry README.md
+131 silly gunzTarPerm extractEntry generators/app/index.js
+132 silly gunzTarPerm modes [ '755', '644' ]
+133 silly gunzTarPerm extractEntry package.json
+134 silly gunzTarPerm extractEntry generators/app/templates/README.md
+135 silly gunzTarPerm extractEntry generators/app/templates/Procfile
+136 silly gunzTarPerm extractEntry generators/app/templates/_package.json
+137 silly gunzTarPerm extractEntry generators/app/templates/bin/hubot
+138 silly gunzTarPerm extractEntry generators/app/templates/bin/hubot.cmd
+139 silly gunzTarPerm extractEntry generators/app/templates/editorconfig
+140 silly gunzTarPerm extractEntry generators/app/templates/gitignore
+141 silly gunzTarPerm extractEntry generators/app/templates/scripts/example.coffee
+142 silly gunzTarPerm extractEntry generators/script/index.js
+143 silly gunzTarPerm extractEntry generators/script/templates/README.md
+144 silly gunzTarPerm extractEntry generators/script/templates/Gruntfile.js
+145 silly gunzTarPerm extractEntry generators/script/templates/.travis.yml
+146 silly gunzTarPerm extractEntry generators/script/templates/_package.json
+147 silly gunzTarPerm extractEntry generators/script/templates/editorconfig
+148 silly gunzTarPerm extractEntry generators/script/templates/gitignore
+149 silly gunzTarPerm extractEntry generators/script/templates/index.coffee
+150 silly gunzTarPerm extractEntry generators/script/templates/script/bootstrap
+151 silly gunzTarPerm extractEntry generators/script/templates/script/test
+152 silly gunzTarPerm extractEntry generators/script/templates/src/template.coffee
+153 silly gunzTarPerm extractEntry generators/script/templates/test/template-test.coffee
+154 silly gunzTarPerm extractEntry lib/cli.js
+155 silly gunzTarPerm extractEntry lib/router.js
+156 silly gunzTarPerm extractEntry lib/completion/completer.js
+157 silly gunzTarPerm extractEntry lib/completion/index.js
+158 silly gunzTarPerm extractEntry lib/routes/clear-config.js
+159 silly gunzTarPerm extractEntry lib/routes/exit.js
+160 silly gunzTarPerm extractEntry lib/routes/help.js
+161 silly gunzTarPerm extractEntry lib/routes/home.js
+162 silly gunzTarPerm extractEntry lib/routes/install.js
+163 silly gunzTarPerm extractEntry lib/routes/run.js
+164 silly gunzTarPerm extractEntry lib/routes/update.js
+165 silly gunzTarPerm extractEntry lib/usage.txt
+166 silly gunzTarPerm extractEntry lib/utils/global-config.js
+167 silly gunzTarPerm extractEntry readme.md
+168 silly lockFile 5feb4ef9-69579-0-6778298590797931-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package
+169 silly lockFile 5feb4ef9-69579-0-6778298590797931-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package
+170 silly lockFile cb6cfb8e-69579-0-6778298590797931-tmp-tgz tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/tmp.tgz
+171 silly lockFile cb6cfb8e-69579-0-6778298590797931-tmp-tgz tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/tmp.tgz
+172 verbose tar pack [ '/home/vagrant/.npm/yo/1.8.5/package.tgz',
+172 verbose tar pack   '/home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package' ]
+173 verbose tarball /home/vagrant/.npm/yo/1.8.5/package.tgz
+174 verbose folder /home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package
+175 silly lockFile 5feb4ef9-69579-0-6778298590797931-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package
+176 verbose lock tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package /home/vagrant/.npm/5feb4ef9-69579-0-6778298590797931-package.lock
+177 silly lockFile 214cc93c-vagrant-npm-yo-1-8-5-package-tgz tar:///home/vagrant/.npm/yo/1.8.5/package.tgz
+178 verbose lock tar:///home/vagrant/.npm/yo/1.8.5/package.tgz /home/vagrant/.npm/214cc93c-vagrant-npm-yo-1-8-5-package-tgz.lock
+179 silly lockFile e8516a17-pm-generator-hubot-0-4-0-package tar:///home/vagrant/.npm/generator-hubot/0.4.0/package
+180 silly lockFile e8516a17-pm-generator-hubot-0-4-0-package tar:///home/vagrant/.npm/generator-hubot/0.4.0/package
+181 silly lockFile 31be12d2-enerator-hubot-0-4-0-package-tgz tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+182 silly lockFile 31be12d2-enerator-hubot-0-4-0-package-tgz tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+183 verbose chmod /home/vagrant/.npm/generator-hubot/0.4.0/package.tgz 644
+184 verbose chown /home/vagrant/.npm/generator-hubot/0.4.0/package.tgz [ 1000, 1000 ]
+185 silly lockFile 115f5a5f--hubot-generator-hubot-0-4-0-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.4.0.tgz
+186 silly lockFile 115f5a5f--hubot-generator-hubot-0-4-0-tgz https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.4.0.tgz
+187 silly lockFile 7e587d0d-generator-hubot-0-4-0 generator-hubot@0.4.0
+188 silly lockFile 7e587d0d-generator-hubot-0-4-0 generator-hubot@0.4.0
+189 silly lockFile c9293273-generator-hubot generator-hubot@
+190 silly lockFile c9293273-generator-hubot generator-hubot@
+191 silly lockFile 5feb4ef9-69579-0-6778298590797931-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package
+192 silly lockFile 5feb4ef9-69579-0-6778298590797931-package tar:///home/vagrant/tmp/npm-7172-z84i1WPv/1477914569579-0.6778298590797931/package
+193 silly lockFile 214cc93c-vagrant-npm-yo-1-8-5-package-tgz tar:///home/vagrant/.npm/yo/1.8.5/package.tgz
+194 silly lockFile 214cc93c-vagrant-npm-yo-1-8-5-package-tgz tar:///home/vagrant/.npm/yo/1.8.5/package.tgz
+195 silly lockFile 6f1cf023-ome-vagrant-npm-yo-1-8-5-package /home/vagrant/.npm/yo/1.8.5/package
+196 verbose lock /home/vagrant/.npm/yo/1.8.5/package /home/vagrant/.npm/6f1cf023-ome-vagrant-npm-yo-1-8-5-package.lock
+197 silly lockFile 6f1cf023-ome-vagrant-npm-yo-1-8-5-package /home/vagrant/.npm/yo/1.8.5/package
+198 silly lockFile 6f1cf023-ome-vagrant-npm-yo-1-8-5-package /home/vagrant/.npm/yo/1.8.5/package
+199 verbose tar unpack /home/vagrant/.npm/yo/1.8.5/package.tgz
+200 silly lockFile 52704ee5-ome-vagrant-npm-yo-1-8-5-package tar:///home/vagrant/.npm/yo/1.8.5/package
+201 verbose lock tar:///home/vagrant/.npm/yo/1.8.5/package /home/vagrant/.npm/52704ee5-ome-vagrant-npm-yo-1-8-5-package.lock
+202 silly lockFile 214cc93c-vagrant-npm-yo-1-8-5-package-tgz tar:///home/vagrant/.npm/yo/1.8.5/package.tgz
+203 verbose lock tar:///home/vagrant/.npm/yo/1.8.5/package.tgz /home/vagrant/.npm/214cc93c-vagrant-npm-yo-1-8-5-package-tgz.lock
+204 silly gunzTarPerm modes [ '755', '644' ]
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm extractEntry lib/cli.js
+207 silly gunzTarPerm extractEntry lib/router.js
+208 silly gunzTarPerm extractEntry lib/completion/completer.js
+209 silly gunzTarPerm extractEntry lib/completion/index.js
+210 silly gunzTarPerm extractEntry lib/routes/clear-config.js
+211 silly gunzTarPerm extractEntry lib/routes/exit.js
+212 silly gunzTarPerm extractEntry lib/routes/help.js
+213 silly gunzTarPerm extractEntry lib/routes/home.js
+214 silly gunzTarPerm extractEntry lib/routes/install.js
+215 silly gunzTarPerm extractEntry lib/routes/run.js
+216 silly gunzTarPerm extractEntry lib/routes/update.js
+217 silly gunzTarPerm extractEntry lib/usage.txt
+218 silly gunzTarPerm extractEntry lib/utils/global-config.js
+219 silly gunzTarPerm extractEntry readme.md
+220 silly lockFile 52704ee5-ome-vagrant-npm-yo-1-8-5-package tar:///home/vagrant/.npm/yo/1.8.5/package
+221 silly lockFile 52704ee5-ome-vagrant-npm-yo-1-8-5-package tar:///home/vagrant/.npm/yo/1.8.5/package
+222 silly lockFile 214cc93c-vagrant-npm-yo-1-8-5-package-tgz tar:///home/vagrant/.npm/yo/1.8.5/package.tgz
+223 silly lockFile 214cc93c-vagrant-npm-yo-1-8-5-package-tgz tar:///home/vagrant/.npm/yo/1.8.5/package.tgz
+224 verbose chmod /home/vagrant/.npm/yo/1.8.5/package.tgz 644
+225 verbose chown /home/vagrant/.npm/yo/1.8.5/package.tgz [ 1000, 1000 ]
+226 silly lockFile e21e4a4e-gistry-npmjs-org-yo-yo-1-8-5-tgz https://registry.npmjs.org/yo/-/yo-1.8.5.tgz
+227 silly lockFile e21e4a4e-gistry-npmjs-org-yo-yo-1-8-5-tgz https://registry.npmjs.org/yo/-/yo-1.8.5.tgz
+228 silly lockFile df3f7f5d-yo-1-8-5 yo@1.8.5
+229 silly lockFile df3f7f5d-yo-1-8-5 yo@1.8.5
+230 silly lockFile d937c28e-yo yo@
+231 silly lockFile d937c28e-yo yo@
+232 silly resolved [ { name: 'generator-hubot',
+232 silly resolved     version: '0.4.0',
+232 silly resolved     description: 'Hubot generator for Yeoman',
+232 silly resolved     license: 'MIT',
+232 silly resolved     main: 'generators/app/index.js',
+232 silly resolved     repository: { type: 'git', url: 'git://github.com/github/generator-hubot' },
+232 silly resolved     author:
+232 silly resolved      { name: 'Josh Nichols',
+232 silly resolved        email: 'josh@technicalpickles.com',
+232 silly resolved        url: 'https://github.com/technicalpickles' },
+232 silly resolved     engines: { node: '>=0.10.0' },
+232 silly resolved     scripts: { test: 'mocha' },
+232 silly resolved     files: [ 'generators' ],
+232 silly resolved     keywords: [ 'yeoman-generator', 'hubot', 'hubot-script' ],
+232 silly resolved     dependencies:
+232 silly resolved      { 'yeoman-generator': '^0.17.0',
+232 silly resolved        chalk: '^0.5.0',
+232 silly resolved        yosay: '^0.3.0',
+232 silly resolved        'npm-name': '^1.0.1' },
+232 silly resolved     devDependencies:
+232 silly resolved      { 'coffee-script': '^1.6.3',
+232 silly resolved        grunt: '~0.4.5',
+232 silly resolved        'grunt-contrib-watch': '^0.6.1',
+232 silly resolved        'grunt-mocha-test': '^0.12.4',
+232 silly resolved        'grunt-release': '~0.6.0',
+232 silly resolved        matchdep: '~0.1.2',
+232 silly resolved        mocha: '*' },
+232 silly resolved     readme: '# generator-hubot\n\nA [Yeoman](http://yeoman.io) generator for creating your own chatbot using the Hubot framework\n\n\n## Installation\n\n- `npm install -g generator-hubot`\n\n## Usage\n\n- `yo hubot`\n\n## Getting Started\n\nSee [Hubot\'s Getting Started\nguide](https://github.com/github/hubot/blob/master/docs/index.md) for\ndetails on getting up and running with your very own robot friend.\n`generator-hubot` is a replacement for `hubot --create`,\nso you skip that step if you\'ve done `yo hubot` already.\n',
+232 silly resolved     readmeFilename: 'README.md',
+232 silly resolved     bugs: { url: 'https://github.com/github/generator-hubot/issues' },
+232 silly resolved     _id: 'generator-hubot@0.4.0',
+232 silly resolved     dist: { shasum: '9866512ecd3ab135f505b92641dc869613647faa' },
+232 silly resolved     _from: 'generator-hubot@',
+232 silly resolved     _resolved: 'https://registry.npmjs.org/generator-hubot/-/generator-hubot-0.4.0.tgz' },
+232 silly resolved   { name: 'yo',
+232 silly resolved     version: '1.8.5',
+232 silly resolved     description: 'CLI tool for running Yeoman generators',
+232 silly resolved     homepage: 'http://yeoman.io',
+232 silly resolved     author: { name: 'Yeoman' },
+232 silly resolved     files: [ 'lib' ],
+232 silly resolved     main: 'lib',
+232 silly resolved     keywords:
+232 silly resolved      [ 'cli-app',
+232 silly resolved        'cli',
+232 silly resolved        'front-end',
+232 silly resolved        'development',
+232 silly resolved        'dev',
+232 silly resolved        'build',
+232 silly resolved        'web',
+232 silly resolved        'tool',
+232 silly resolved        'scaffold',
+232 silly resolved        'stack',
+232 silly resolved        'yeoman',
+232 silly resolved        'generator',
+232 silly resolved        'generate',
+232 silly resolved        'app',
+232 silly resolved        'boilerplate' ],
+232 silly resolved     license: 'BSD-2-Clause',
+232 silly resolved     repository: { type: 'git', url: 'git://github.com/yeoman/yo' },
+232 silly resolved     bin: { yo: 'lib/cli.js', 'yo-complete': 'lib/completion/index.js' },
+232 silly resolved     engines: { node: '>=0.12.0' },
+232 silly resolved     scripts:
+232 silly resolved      { test: 'gulp',
+232 silly resolved        postinstall: 'yodoctor',
+232 silly resolved        postupdate: 'yodoctor',
+232 silly resolved        prepublish: 'gulp prepublish' },
+232 silly resolved     dependencies:
+232 silly resolved      { async: '^1.0.0',
+232 silly resolved        chalk: '^1.0.0',
+232 silly resolved        'cli-list': '^0.1.1',
+232 silly resolved        configstore: '^1.0.0',
+232 silly resolved        'cross-spawn': '^3.0.1',
+232 silly resolved        figures: '^1.3.5',
+232 silly resolved        fullname: '^2.0.0',
+232 silly resolved        got: '^5.0.0',
+232 silly resolved        'humanize-string': '^1.0.0',
+232 silly resolved        inquirer: '^0.11.0',
+232 silly resolved        insight: '^0.7.0',
+232 silly resolved        lodash: '^3.2.0',
+232 silly resolved        meow: '^3.0.0',
+232 silly resolved        'npm-keyword': '^4.1.0',
+232 silly resolved        opn: '^3.0.2',
+232 silly resolved        'package-json': '^2.1.0',
+232 silly resolved        'parse-help': '^0.1.1',
+232 silly resolved        'read-pkg-up': '^1.0.1',
+232 silly resolved        repeating: '^2.0.0',
+232 silly resolved        'root-check': '^1.0.0',
+232 silly resolved        'sort-on': '^1.0.0',
+232 silly resolved        'string-length': '^1.0.0',
+232 silly resolved        tabtab: '^1.3.0',
+232 silly resolved        titleize: '^1.0.0',
+232 silly resolved        'update-notifier': '^0.6.0',
+232 silly resolved        'user-home': '^2.0.0',
+232 silly resolved        'yeoman-character': '^1.0.0',
+232 silly resolved        'yeoman-doctor': '^2.0.0',
+232 silly resolved        'yeoman-environment': '^1.6.1',
+232 silly resolved        yosay: '^1.0.0' },
+232 silly resolved     devDependencies:
+232 silly resolved      { gulp: '^3.6.0',
+232 silly resolved        'gulp-coveralls': '^0.1.0',
+232 silly resolved        'gulp-eslint': '^2.0.0',
+232 silly resolved        'gulp-exclude-gitignore': '^1.0.0',
+232 silly resolved        'gulp-istanbul': '^0.10.4',
+232 silly resolved        'gulp-mocha': '^2.0.0',
+232 silly resolved        'gulp-nsp': '^2.1.0',
+232 silly resolved        'gulp-plumber': '^1.0.0',
+232 silly resolved        mocha: '^2.1.0',
+232 silly resolved        mockery: '^1.4.0',
+232 silly resolved        nock: '^8.0.0',
+232 silly resolved        nsp: '^2.2.0',
+232 silly resolved        proxyquire: '^1.0.1',
+232 silly resolved        'registry-url': '^3.0.0',
+232 silly resolved        sinon: '^1.12.1' },
+232 silly resolved     tabtab: { yo: [Object] },
+232 silly resolved     readme: '# yo [![npm](https://badge.fury.io/js/yo.svg)](http://badge.fury.io/js/yo) [![Build Status](https://travis-ci.org/yeoman/yo.svg?branch=master)](https://travis-ci.org/yeoman/yo) [![Coverage Status](https://coveralls.io/repos/yeoman/yo/badge.svg)](https://coveralls.io/r/yeoman/yo) [![](https://img.shields.io/badge/unicorn-approved-ff69b4.svg)](https://www.youtube.com/watch?v=9auOCbH5Ns4) [![Gitter](https://img.shields.io/badge/Gitter-Join_the_Yeoman_chat_%E2%86%92-00d06f.svg)](https://gitter.im/yeoman/yeoman) [![OpenCollective](https://opencollective.com/yeoman/badge/backers.svg)](https://opencollective.com/yeoman#support)\n\n[![](https://raw.githubusercontent.com/yeoman/media/master/optimized/yeoman-masthead.png)](http://yeoman.io)\n\n<img src="screenshot.png" width="569">\n\n\n## What\'s Yeoman?\n\nYeoman helps you to kickstart new projects, prescribing best practices and tools to help you stay productive.\n\nTo do so, we provide a [generator ecosystem](http://yeoman.io/generators/). A generator is basically a plugin that can be run with the `yo` command to scaffold complete projects or useful parts.\n\n\n## Usage\n\n```sh\n# install yo\nnpm install --global yo\n\n# install a generator\nnpm install --global generator-webapp\n\n# run it\nyo webapp\n```\n\n*To create and distribute your own generator, refer to [our official documentation](http://yeoman.io/authoring/)*\n\n\n## Options\n\n- `--no-color` - Disable colors.\n- `--version` - Print the current `yo` version.\n- `--help` - Print `yo` help menu with the list of found generators.\n- `--[no-]insight` - Toggle anonymous [Insight](https://github.com/yeoman/insight) tracking which helps us improve Yeoman. Using either of these flags on the first run will prevent you from being prompted about it interactively. The flags can also be used to change it later on.\n- `--generators` - Print available generators.\n\n\n## Troubleshooting\n\nRunning `yo doctor` command can help you troubleshoot common issues.\n\nIf `doctor` doesn\'t help, then check opened issues for a similar problem. Open a new issue if your problem haven\'t been reported yet. Make sure to always include the version of `yo` (`yo --version`) and Node.js (`node --version`) you use.\n\nIf your issue only occurs using a generator, please report the issues on the generator\'s repository.\n\n\n## Contribute\n\nSee the [contributing docs](http://yeoman.io/contributing/).\n\n\n## Changelog\n\nSee the [release page](https://github.com/yeoman/yo/releases).\n\n## Backers\nLove Yeoman work and community? Help us keep it alive by donating funds to cover project expenses! <br />\n[[Become a backer](https://opencollective.com/yeoman#support)]\n\n  <a href="https://opencollective.com/yeoman/backers/0/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/0/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/1/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/1/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/2/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/2/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/3/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/3/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/4/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/4/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/5/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/5/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/6/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/6/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/7/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/7/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/8/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/8/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/9/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/9/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/10/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/10/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/11/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/11/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/12/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/12/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/13/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/13/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/14/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/14/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/15/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/15/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/16/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/16/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/17/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/17/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/18/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/18/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/19/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/19/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/20/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/20/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/21/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/21/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/22/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/22/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/23/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/23/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/24/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/24/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/25/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/25/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/26/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/26/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/27/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/27/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/28/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/28/avatar">\n  </a>\n  <a href="https://opencollective.com/yeoman/backers/29/website" target="_blank">\n    <img src="https://opencollective.com/yeoman/backers/29/avatar">\n  </a>\n\n\n## License\n\nBSD-2-Clause © Google\n',
+232 silly resolved     readmeFilename: 'readme.md',
+232 silly resolved     bugs: { url: 'https://github.com/yeoman/yo/issues' },
+232 silly resolved     _id: 'yo@1.8.5',
+232 silly resolved     dist: { shasum: 'f8a307e37954890ecdf1da556333105a9b5de9ed' },
+232 silly resolved     _from: 'yo@',
+232 silly resolved     _resolved: 'https://registry.npmjs.org/yo/-/yo-1.8.5.tgz' } ]
+233 info install generator-hubot@0.4.0 into /usr/local/lib
+234 info install yo@1.8.5 into /usr/local/lib
+235 info installOne generator-hubot@0.4.0
+236 info installOne yo@1.8.5
+237 warn engine yo@1.8.5: wanted: {"node":">=0.12.0"} (current: {"node":"v0.10.25","npm":"1.3.10"})
+238 info /usr/local/lib/node_modules/generator-hubot unbuild
+239 info /usr/local/lib/node_modules/yo unbuild
+240 verbose tar unpack /home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+241 silly lockFile 6903d81a-lib-node-modules-generator-hubot tar:///usr/local/lib/node_modules/generator-hubot
+242 verbose lock tar:///usr/local/lib/node_modules/generator-hubot /home/vagrant/.npm/6903d81a-lib-node-modules-generator-hubot.lock
+243 silly lockFile 31be12d2-enerator-hubot-0-4-0-package-tgz tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz
+244 verbose lock tar:///home/vagrant/.npm/generator-hubot/0.4.0/package.tgz /home/vagrant/.npm/31be12d2-enerator-hubot-0-4-0-package-tgz.lock
+245 verbose tar unpack /home/vagrant/.npm/yo/1.8.5/package.tgz
+246 silly lockFile 7d7c7bef-ar-usr-local-lib-node-modules-yo tar:///usr/local/lib/node_modules/yo
+247 verbose lock tar:///usr/local/lib/node_modules/yo /home/vagrant/.npm/7d7c7bef-ar-usr-local-lib-node-modules-yo.lock
+248 silly lockFile 214cc93c-vagrant-npm-yo-1-8-5-package-tgz tar:///home/vagrant/.npm/yo/1.8.5/package.tgz
+249 verbose lock tar:///home/vagrant/.npm/yo/1.8.5/package.tgz /home/vagrant/.npm/214cc93c-vagrant-npm-yo-1-8-5-package-tgz.lock
+250 silly gunzTarPerm modes [ '755', '644' ]
+251 silly gunzTarPerm modes [ '755', '644' ]
+252 error Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-hubot'
+252 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-hubot']
+252 error   errno: 3,
+252 error   code: 'EACCES',
+252 error   path: '/usr/local/lib/node_modules/generator-hubot',
+252 error   fstream_type: 'Directory',
+252 error   fstream_path: '/usr/local/lib/node_modules/generator-hubot',
+252 error   fstream_class: 'DirWriter',
+252 error   fstream_stack:
+252 error    [ '/usr/lib/nodejs/fstream/lib/dir-writer.js:36:23',
+252 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+252 error      'Object.oncomplete (fs.js:107:15)' ] }
+253 error Please try running this command again as root/Administrator.
+254 error System Linux 3.13.0-100-generic
+255 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "yo" "generator-hubot"
+256 error cwd /vagrant
+257 error node -v v0.10.25
+258 error npm -v 1.3.10
+259 error path /usr/local/lib/node_modules/generator-hubot
+260 error fstream_path /usr/local/lib/node_modules/generator-hubot
+261 error fstream_type Directory
+262 error fstream_class DirWriter
+263 error code EACCES
+264 error errno 3
+265 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/generator-hubot'
+266 error fstream_stack /usr/lib/nodejs/fstream/lib/dir-writer.js:36:23
+266 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+266 error fstream_stack Object.oncomplete (fs.js:107:15)
+267 verbose exit [ 3, true ]
